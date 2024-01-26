@@ -1,0 +1,17 @@
+.wrapper{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.staticImage{
+  width: 300px;
+}
+
+.heading{
+  font-size: 30px;
+  color: #444444;
+  margin-bottom: 10px;
+}
