@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 30px;
 }
 .staticImage{
   width: 300px;
@@ -14,4 +14,14 @@
   font-size: 30px;
   color: #444444;
   margin-bottom: 10px;
+}
+.imageDiv{
+  /* giving the image container parent div position: relative is very importanat */
+  position: relative;
+  width: 300px;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  box-shadow: 3px 4px 10px 2px #0000005e;
+}
+.imageDiv{
 }
